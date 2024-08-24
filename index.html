@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="todo_el_contenido">
+        <div class="logo">
+            <img class="logo_img" src="/Logo.png" alt="logo">
+        </div>
+        <div class="divcaja_ingrese_texto">
+            <textarea class="caja_ingrese_texto" name="encriptar" id="textforencript"
+                placeholder="Ingrese el texto aqui"></textarea>
+            <div class="recomend">
+                <img class="icons" src="/icons8-atención-50.png" alt="icon">
+                <p class="parrafo_instruc_cajatext">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <button class="btn_encriptar" onclick="encriptar()">Encriptar</button> <button class="btn_desencriptar"
+                onclick="Desencriptar()">Desencriptar</button>
+        </div>
+        <div id="primero" class="div_texto_encriptado">
+            <div class="div_texto_encriptado_sinbtn">
+                <img class="img_muñeco" src="/Muñeco.png" alt="muñeco">
+                <h4 class="ningun_mensaje">Ningún mensaje fue encontrado</h4>
+                <p class="ingrese_texto_para_encript">Ingrese el texto que desees Encriptar o desencriptar.</p>
+
+            </div>
+
+        </div>
+
+        <div id="segundo" class="div_texto_encriptado2">
+            <div class="div_texto_encriptado_sinbtn2">
+                <div class="Textoencriptado">
+                    <p id="texencriptado" class="ingrese_texto_para_encript"></p>
+                </div>
+
+                <button class="btn_copiar" onclick="copiar()">Copiar</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+<script src="/script.js"></script>
+
+</html>
